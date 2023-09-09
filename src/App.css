@@ -11,7 +11,7 @@ body {
   align-items: center;
   color: black;
   min-height: 100vh;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(194, 243, 228, 0.09);
   background-image: radial-gradient(
       circle at 30% -20%,
       rgba(32, 201, 151, 0.35) 0%,
@@ -45,12 +45,12 @@ body {
     rgb(245, 169, 87)
   );
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   margin: 0px;
   position: absolute;
   z-index: 1;
-  padding-top: 10%;
+  padding-top: 15%;
   white-space: nowrap;
   overflow: hidden;
   width: 30em;
@@ -61,12 +61,13 @@ body {
   margin: 0px;
   z-index: 1;
   position: absolute;
-  padding-top: 30%;
+  padding-top: 35%;
   font-size: larger;
   font-weight: 100;
 }
 
 .logoH {
+  padding-top: 5%;
   width: 50%;
   height: 60%;
 }
