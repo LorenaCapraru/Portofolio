@@ -45,7 +45,7 @@ body {
     rgb(245, 169, 87)
   );
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 6rem;
   text-align: center;
   margin: 0px;
   position: absolute;
@@ -64,7 +64,7 @@ body {
   text-align: center;
   font-family: Caveat, cursive;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 6rem;
   transform: rotate(-6deg);
   position: absolute;
   margin-top: 25%;
