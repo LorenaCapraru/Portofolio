@@ -48,7 +48,7 @@ const About = () => {
             dissertation, where I created an{" "}
             <span className="pulseA">
               intelligent door lock based on vocal recognition
-            </span>
+            </span>{" "}
             using cutting-edge technologies and innovative solutions. Another
             significant accomplishment was my final project at{" "}
             <span className="pulseA">CodeYourFuture</span>, where I built a web
