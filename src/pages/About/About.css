@@ -71,16 +71,17 @@ body {
 }
 
 .pulseA {
-  /* color: rgb(37, 169, 171); */
+  color: rgb(123, 200, 201);
   box-shadow: 0 0 0 0 rgb(164, 218, 219);
   transform: scale(1);
   animation: pulse 2s infinite;
+  font-weight: bold;
 }
 
 @keyframes pulse {
   0% {
     transform: scale(0.8);
-    box-shadow: 0 0 0 0 rgb(164, 218, 219);
+    box-shadow: 0 0 0 0 rgba(37, 169, 171, 0.8);
     color: rgb(37, 169, 171);
   }
 

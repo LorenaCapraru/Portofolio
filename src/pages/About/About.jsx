@@ -39,16 +39,24 @@ const About = () => {
           <br />
           <p>
             {" "}
-            I graduated from Falmouth University with a BSc in Computing in
-            February 2023, where I developed a solid foundation in software
-            development principles and practices. One of my most rewarding
-            projects was my dissertation, where I created an intelligent door
-            lock based on vocal recognition, using cutting-edge technologies and
-            innovative solutions. Another significant accomplishment was my
-            final project at CodeYourFuture, where I built a web application
-            with a team of talented developers, delivering high-quality code
-            within tight deadlines and gaining valuable insights into teamwork
-            dynamics, communication, and collaboration. My goal is to turn
+            I graduated from <span className="pulseA">
+              Falmouth University
+            </span>{" "}
+            with a <span className="pulseA">BSc in Computing</span> in February
+            2023, where I developed a solid foundation in software development
+            principles and practices. One of my most rewarding projects was my
+            dissertation, where I created an{" "}
+            <span className="pulseA">
+              intelligent door lock based on vocal recognition
+            </span>
+            using cutting-edge technologies and innovative solutions. Another
+            significant accomplishment was my final project at{" "}
+            <span className="pulseA">CodeYourFuture</span>, where I built a web
+            application with a team of talented developers, delivering
+            high-quality code within tight deadlines and gaining valuable
+            insights into <span className="pulseA">teamwork</span> dynamics,
+            <span className="pulseA">communication</span>, and{" "}
+            <span className="pulseA">collaboration</span>. My goal is to turn
             concepts into applications that make a positive impact on the world.
           </p>
         </div>
