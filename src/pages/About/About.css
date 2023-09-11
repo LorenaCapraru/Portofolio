@@ -5,6 +5,7 @@ body {
 }
 
 .aboutH {
+  padding: 5%;
   background-color: rgba(243, 245, 248, 255);
   min-height: 100vh;
 }
@@ -32,4 +33,22 @@ body {
   height: 0.3125rem;
   margin: 0px auto;
   background-color: rgba(48, 207, 209);
+}
+
+.containerH {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.descriptionH {
+  width: 65%;
+}
+
+.dataH {
+  width: 20%;
+}
+
+.name {
+  color: rgba(50, 206, 208, 255);
 }

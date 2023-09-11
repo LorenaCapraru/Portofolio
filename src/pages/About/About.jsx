@@ -5,6 +5,10 @@ const About = () => {
     <main className="aboutH">
       <h1 className="headerH">ABOUT ME</h1>
       <h2 className="header2H">Background</h2>
+      <h3>
+        Hello, I'm <span className="name">Lorena Capraru</span>, a Full Stack
+        Developer
+      </h3>
       <div className="containerH">
         <div className="descriptionH">
           Lorem Ipsum is simply dummy text of the printing and typesetting
