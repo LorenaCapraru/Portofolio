@@ -22,7 +22,12 @@ const About = () => {
           including versions of Lorem Ipsum.
         </div>
         <div className="dataH">
+          <p>Name: Lorena Capraru</p>
           <p>Location: London</p>
+          <p>Gmail: lorenacapraru@gmail.com</p>
+
+          <p>Github Account: https://github.com/LorenaCapraru</p>
+          <p>LinkedIN: https://www.linkedin.com/in/lorena-capraru/</p>
         </div>
       </div>
     </main>
