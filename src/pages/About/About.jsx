@@ -1,33 +1,84 @@
 import React from "react";
 import "./About.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+
 const About = () => {
   return (
     <main className="aboutH">
       <h1 className="headerH">ABOUT ME</h1>
       <h2 className="header2H">Background</h2>
-      <h3>
-        Hello, I'm <span className="name">Lorena Capraru</span>, a Full Stack
-        Developer
-      </h3>
+
       <div className="containerH">
         <div className="descriptionH">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          <h3>
+            Hello, I'm <span className="name">Lorena Capraru</span>, a Full
+            Stack Developer
+          </h3>
+          <p>
+            Coding and problem-solving are my passions, and I pursue them
+            through an immersive 1-year full stack software development training
+            program at CodeYourFuture. There, I gain hands-on experience in
+            <span className="pulseA"> HTML</span>,{" "}
+            <span className="pulseA">CSS</span>,{" "}
+            <span className="pulseA">JavaScript</span>,{" "}
+            <span className="pulseA">React.js</span>,{" "}
+            <span className="pulseA">Node.js</span>,{" "}
+            <span className="pulseA">Express.js</span>, and{" "}
+            <span className="pulseA">SQL</span>, collaborating with fellow
+            trainees on various projects and practicing pair programming and
+            teamwork. I also apply{" "}
+            <span className="pulseA">Agile methodologies</span> and best
+            practices to ensure efficient project delivery, and actively learn
+            and stay up-to-date with the latest technologies and industry
+            trends, such as <span className="pulseA">Next.js</span>,{" "}
+            <span className="pulseA">Tailwind</span>, and{" "}
+            <span className="pulseA">Prisma</span>. Additionally, I contribute
+            to open-source projects and engage in community-driven initiatives.
+          </p>
+          <br />
+          <p>
+            {" "}
+            I graduated from Falmouth University with a BSc in Computing in
+            February 2023, where I developed a solid foundation in software
+            development principles and practices. One of my most rewarding
+            projects was my dissertation, where I created an intelligent door
+            lock based on vocal recognition, using cutting-edge technologies and
+            innovative solutions. Another significant accomplishment was my
+            final project at CodeYourFuture, where I built a web application
+            with a team of talented developers, delivering high-quality code
+            within tight deadlines and gaining valuable insights into teamwork
+            dynamics, communication, and collaboration. My goal is to turn
+            concepts into applications that make a positive impact on the world.
+          </p>
         </div>
         <div className="dataH">
-          <p>Name: Lorena Capraru</p>
-          <p>Location: London</p>
-          <p>Gmail: lorenacapraru@gmail.com</p>
+          <p>
+            <b>Name:</b> Lorena Capraru
+          </p>
+          <hr />
 
-          <p>Github Account: https://github.com/LorenaCapraru</p>
-          <p>LinkedIN: https://www.linkedin.com/in/lorena-capraru/</p>
+          <p>
+            <b>Gmail:</b> <span className="name">lorenacapraru@gmail.com</span>
+          </p>
+          <hr />
+
+          <p>
+            <b>Location:</b> London
+          </p>
+          <hr />
+
+          <div className="socialsA">
+            <a
+              href="https://www.linkedin.com/in/lorena-capraru"
+              className="socialA"
+            >
+              <FontAwesomeIcon icon={faLinkedin} className="socialA" />
+            </a>
+            <a href="https://github.com/LorenaCapraru">
+              <FontAwesomeIcon icon={faGithub} className="socialA" />
+            </a>
+          </div>
         </div>
       </div>
     </main>
