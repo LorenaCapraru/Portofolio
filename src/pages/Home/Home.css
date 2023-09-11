@@ -78,6 +78,21 @@ body {
     rgb(219, 66, 198) 100%
   );
 }
+.nameH::after {
+  content: "";
+  width: 120%;
+  height: 0.125rem;
+  left: -0.3125rem;
+  bottom: 0.75rem;
+  position: absolute;
+  transform: rotate(-3deg);
+  background-image: linear-gradient(
+    92deg,
+    rgb(48, 207, 208) 10%,
+    rgb(113, 46, 195) 50%,
+    rgba(219, 66, 198, 0) 95%
+  );
+}
 
 .placeH {
   margin: 0px;
@@ -111,7 +126,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 18px 0px;
   transition: all 0.3s ease-in-out 0s;
   color: rgb(255, 255, 255);
-  border: 2px solid rgba(48, 207, 209);
+  border: 2px solid rgb(48, 207, 209);
   background-color: rgb(48, 207, 209);
 }
 .buttonH:hover {

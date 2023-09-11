@@ -1,0 +1,35 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.aboutH {
+  background-color: rgba(243, 245, 248, 255);
+  min-height: 100vh;
+}
+
+.headerH {
+  color: rgba(223, 231, 239, 255);
+  font-size: 5em;
+  text-align: center;
+}
+
+.header2H {
+  position: absolute;
+  top: 106%;
+  left: 45%;
+  font-size: 2em;
+  text-align: center;
+
+  /* margin: 0.3125rem auto 0px; */
+}
+
+.header2H::after {
+  content: "";
+  display: block;
+  width: 12rem;
+  height: 0.3125rem;
+  margin: 0px auto;
+  background-color: rgba(48, 207, 209);
+}
