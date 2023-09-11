@@ -87,6 +87,7 @@ const About = () => {
               <FontAwesomeIcon icon={faGithub} className="socialA" />
             </a>
           </div>
+          <button className="buttonA">Download my CV</button>
         </div>
       </div>
     </main>
