@@ -81,7 +81,7 @@ const About = () => {
               href="https://www.linkedin.com/in/lorena-capraru"
               className="socialA"
             >
-              <FontAwesomeIcon icon={faLinkedin} className="socialA" />
+              <FontAwesomeIcon icon={faLinkedin} className="social2A" />
             </a>
             <a href="https://github.com/LorenaCapraru">
               <FontAwesomeIcon icon={faGithub} className="socialA" />
