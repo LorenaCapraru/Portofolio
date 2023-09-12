@@ -146,7 +146,7 @@ svg {
     stroke-dashoffset: 360;
   }
   to {
-    stroke-dashoffset: 100;
+    stroke-dashoffset: 60;
   }
 }
 
@@ -155,7 +155,7 @@ svg {
     stroke-dashoffset: 360;
   }
   to {
-    stroke-dashoffset: 160;
+    stroke-dashoffset: 60;
   }
 }
 
@@ -164,6 +164,80 @@ svg {
     stroke-dashoffset: 360;
   }
   to {
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 60;
+  }
+}
+
+@keyframes progress-4 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+@keyframes progress-5 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+@keyframes progress-6 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 100;
+  }
+}
+@keyframes progress-7 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 160;
+  }
+}
+@keyframes progress-8 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+@keyframes progress-9 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 190;
+  }
+}
+@keyframes progress-10 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 160;
+  }
+}
+@keyframes progress-11 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 170;
+  }
+}
+@keyframes progress-12 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 90;
   }
 }
