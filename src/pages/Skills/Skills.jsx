@@ -13,7 +13,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-1" cx="57" cy="57" r="52" />
           </svg>
-          <span>HTML</span>
+          <span className="skillsName">HTML</span>
         </div>
 
         <div className="tag">
@@ -21,7 +21,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-2" cx="57" cy="57" r="52" />
           </svg>
-          <span>CSS</span>
+          <span className="skillsName">CSS</span>
         </div>
 
         <div className="tag">
@@ -29,7 +29,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-3" cx="57" cy="57" r="52" />
           </svg>
-          <span>JavaScript</span>
+          <span className="skillsName">JavaScript</span>
         </div>
 
         <div className="tag">
@@ -37,7 +37,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-4" cx="57" cy="57" r="52" />
           </svg>
-          <span>React.js</span>
+          <span className="skillsName">React.js</span>
         </div>
 
         <div className="tag">
@@ -45,7 +45,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-5" cx="57" cy="57" r="52" />
           </svg>
-          <span>Node.js</span>
+          <span className="skillsName">Node.js</span>
         </div>
 
         <div className="tag">
@@ -53,7 +53,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-6" cx="57" cy="57" r="52" />
           </svg>
-          <span>Tailwind CSS</span>
+          <span className="skillsName">Tailwind CSS</span>
         </div>
 
         <div className="tag">
@@ -61,7 +61,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-7" cx="57" cy="57" r="52" />
           </svg>
-          <span>Jest</span>
+          <span className="skillsName">Jest</span>
         </div>
 
         <div className="tag">
@@ -69,7 +69,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-8" cx="57" cy="57" r="52" />
           </svg>
-          <span>GitHub</span>
+          <span className="skillsName">GitHub</span>
         </div>
 
         <div className="tag">
@@ -77,7 +77,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-9" cx="57" cy="57" r="52" />
           </svg>
-          <span>Python</span>
+          <span className="skillsName">Python</span>
         </div>
 
         <div className="tag">
@@ -85,7 +85,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-10" cx="57" cy="57" r="52" />
           </svg>
-          <span>Express.js</span>
+          <span className="skillsName">Express.js</span>
         </div>
 
         <div className="tag">
@@ -93,7 +93,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-11" cx="57" cy="57" r="52" />
           </svg>
-          <span>Next.js</span>
+          <span className="skillsName">Next.js</span>
         </div>
 
         <div className="tag">
@@ -101,7 +101,7 @@ const Skills = () => {
             <circle class="bg" cx="57" cy="57" r="52" />
             <circle class="meter-12" cx="57" cy="57" r="52" />
           </svg>
-          <span>PostgreSQL</span>
+          <span className="skillsName">PostgreSQL</span>
         </div>
       </div>
     </main>

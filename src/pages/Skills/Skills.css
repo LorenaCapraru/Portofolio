@@ -30,7 +30,14 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
+}
+
+.skillsName {
+  color: rgb(162, 164, 167);
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .dashboard {
