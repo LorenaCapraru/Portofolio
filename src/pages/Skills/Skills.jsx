@@ -104,6 +104,18 @@ const Skills = () => {
           <span className="skillsName">PostgreSQL</span>
         </div>
       </div>
+      <div className="softSkillsS">
+        <p className="softSkill">Team work</p>
+        <p className="softSkill">Critical Thinking</p>
+        <p className="softSkill">Problem Solving</p>
+        <p className="softSkillLast">Creativity</p>
+      </div>
+      <div className="softSkillsS">
+        <p className="softSkill">Presentation</p>
+        <p className="softSkill">Active Listening</p>
+        <p className="softSkill">Effective Communication</p>
+        <p className="softSkillLast">Time Management</p>
+      </div>
     </main>
   );
 };

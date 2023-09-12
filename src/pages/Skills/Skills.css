@@ -1,5 +1,6 @@
 main {
   min-height: 100vh;
+  margin: 0px;
 }
 
 .header2S {
@@ -40,12 +41,55 @@ main {
   text-align: center;
 }
 
+.softSkillsS {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.softSkill {
+  width: 10%;
+  color: rgb(113, 128, 148);
+  font-size: 1em;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0 5%;
+  border-right: 0.05rem solid rgb(162, 164, 167);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    92deg,
+    rgb(106, 104, 217) 0%,
+    rgb(218, 108, 174) 60%,
+    rgb(245, 169, 87)
+  );
+}
+.softSkillLast {
+  width: 10%;
+  color: rgb(113, 128, 148);
+  font-size: 1em;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0 5%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    92deg,
+    rgb(106, 104, 217) 0%,
+    rgb(218, 108, 174) 60%,
+    rgb(245, 169, 87)
+  );
+}
+
 .dashboard {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 6%;
-  padding: 10%;
+  padding: 0 10%;
 }
 
 svg {
