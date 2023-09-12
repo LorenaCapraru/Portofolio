@@ -1,0 +1,161 @@
+main {
+  min-height: 100vh;
+}
+
+.header2S {
+  position: absolute;
+  top: 240%;
+  left: 43%;
+  font-size: 2.2em;
+  text-align: center;
+}
+
+.header2S::after {
+  content: "";
+  display: block;
+  width: 15rem;
+  height: 0.3125rem;
+  margin: 0px auto;
+  /* position: absolute; */
+  background-image: linear-gradient(
+    92deg,
+    rgb(48, 207, 208) 10%,
+    rgb(113, 46, 195) 50%,
+    rgba(219, 66, 198, 0) 95%
+  );
+}
+
+.tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6%;
+  padding: 10%;
+}
+
+svg {
+  width: 114px;
+  height: 114px;
+}
+
+.bg {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #e0e7ef;
+}
+
+[class^="meter-"] {
+  fill: none;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.meter-1 {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 100;
+  stroke: #31cfd0;
+  animation: progress-1 1s ease-out;
+}
+.meter-2 {
+  stroke: #4cb5cf;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 160;
+  animation: progress-2 0.75s ease-out;
+}
+.meter-3 {
+  stroke: #5f84ca;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 250;
+  animation: progress-3 0.5s ease-out;
+}
+
+.meter-4 {
+  stroke: #5f84ca;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 250;
+  animation: progress-4 0.5s ease-out;
+}
+.meter-5 {
+  stroke: #5f84ca;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 250;
+  animation: progress-5 0.5s ease-out;
+}
+.meter-6 {
+  stroke: #d689d1;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 250;
+  animation: progress-6 0.5s ease-out;
+}
+.meter-7 {
+  stroke: #7136c4;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 250;
+  animation: progress-7 0.5s ease-out;
+}
+.meter-8 {
+  stroke: #c93fc6;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 250;
+  animation: progress-8 0.5s ease-out;
+}
+.meter-9 {
+  stroke: #df89d2;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 250;
+  animation: progress-9 0.5s ease-out;
+}
+.meter-10 {
+  stroke: #eed58f;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 250;
+  animation: progress-10 0.5s ease-out;
+}
+.meter-11 {
+  stroke: #fad4cd;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 250;
+  animation: progress-11 0.5s ease-out;
+}
+.meter-12 {
+  stroke: #fad8ef;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 250;
+  animation: progress-12 0.5s ease-out;
+}
+
+@keyframes progress-1 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 100;
+  }
+}
+
+@keyframes progress-2 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 160;
+  }
+}
+
+@keyframes progress-3 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 250;
+  }
+}
