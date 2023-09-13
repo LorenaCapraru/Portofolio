@@ -5,7 +5,7 @@ main {
 
 .header2S {
   position: absolute;
-  top: 207%;
+  top: 208%;
   left: 44%;
   font-size: 2.2em;
   text-align: center;
@@ -14,7 +14,7 @@ main {
 .header2S::after {
   content: "";
   display: block;
-  width: 15rem;
+  width: 13rem;
   height: 0.3125rem;
   margin: 0px auto;
   /* position: absolute; */
