@@ -37,6 +37,7 @@
 }
 
 .elementP {
+  position: relative;
   margin-bottom: 3%;
   width: 30%;
   min-height: 235px;
@@ -76,12 +77,11 @@
   margin-top: 10%;
 }
 
-.elementP:hover {
-  z-index: 1;
-  transition: all 1s ease;
-  background-color: rgb(48, 207, 209, 0.8);
-}
-
 .elementP img:hover {
   opacity: 30%;
+}
+
+.elementP:hover {
+  transition: all 1s ease;
+  background-color: rgb(48, 207, 209, 0.8);
 }

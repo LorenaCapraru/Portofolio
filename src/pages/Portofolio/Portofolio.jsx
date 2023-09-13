@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Portofolio.css";
 import project1 from "./project1.png";
 import project2 from "./project2.png";
@@ -6,8 +6,16 @@ import project3 from "./project3.png";
 import project4 from "./project4.png";
 import project5 from "./project5.png";
 import project6 from "./project6.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Portofolio = () => {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => {
+    click === false ? setClick(true) : setClick(false);
+  };
+
   return (
     <main className="portofolioContainer">
       <h1 className="headerH">PORTOFOLIO</h1>
