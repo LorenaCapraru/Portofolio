@@ -5,8 +5,8 @@ body {
 }
 
 .aboutH {
-  padding: 10%;
-  background-color: rgba(243, 245, 248, 255);
+  padding: 0 5%;
+  background-color: rgb(243, 245, 248);
   min-height: 100vh;
 }
 
@@ -14,12 +14,14 @@ body {
   color: rgba(223, 231, 239, 255);
   font-size: 5em;
   text-align: center;
+  padding: 5% 0px;
+  margin: 0px;
 }
 
 .header2H {
   position: absolute;
-  top: 123%;
-  left: 43%;
+  top: 107%;
+  left: 44%;
   font-size: 2.2em;
   text-align: center;
 }

@@ -1,5 +1,11 @@
+import "./Portofolio.css";
+
 const Portofolio = () => {
-  return <div>portofolio</div>;
+  return (
+    <main className="portofolioContainer">
+      <h1 className="headerH">PORTOFOLIO</h1>
+    </main>
+  );
 };
 
 export default Portofolio;
