@@ -39,6 +39,7 @@
 .elementP {
   position: relative;
   margin-bottom: 3%;
+  border-radius: 10px;
   width: 30%;
   min-height: 235px;
   background-color: rgb(255, 255, 255);
@@ -84,4 +85,98 @@
 .elementP:hover {
   transition: all 1s ease;
   background-color: rgb(48, 207, 209, 0.8);
+}
+
+.socialP {
+  font-size: 30px;
+  color: rgb(48, 207, 209, 0.5);
+}
+
+.socialP:hover {
+  font-size: 32px;
+
+  color: rgb(48, 207, 209, 0.9);
+}
+
+.backP {
+  transition: all 1s ease;
+
+  position: relative;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  width: 30%;
+  min-height: 235px;
+  background-color: rgb(255, 255, 255);
+  background-image: radial-gradient(
+      circle at 20% -30%,
+      rgba(32, 201, 151, 0.3) 0%,
+      rgba(32, 201, 151, 0) 35%
+    ),
+    radial-gradient(
+      circle at 10% 70%,
+      rgba(245, 169, 87, 0.25) 0%,
+      rgba(255, 196, 19, 0) 40%
+    ),
+    radial-gradient(
+      circle at 70% 3%,
+      rgba(219, 66, 198, 0.22) 0%,
+      rgba(245, 169, 87, 0) 40%
+    ),
+    radial-gradient(
+      circle at 134% 26%,
+      rgba(208, 53, 65, 0.1) 10%,
+      rgba(208, 53, 65, 0) 0%
+    ),
+    radial-gradient(
+      circle at 90% 100%,
+      rgba(113, 46, 195, 0.1) 5%,
+      rgba(245, 169, 87, 0) 50%
+    );
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.socialMediaP {
+  padding: 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.detailsP {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+.detailsP h2,
+b {
+  color: rgb(153, 158, 163);
+  font-weight: bold;
+  text-align: center;
+}
+
+.detailsP p {
+  text-align: center;
+}
+
+.detailsP p {
+  color: rgb(153, 158, 163);
+}
+
+.nameP {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    92deg,
+    rgb(106, 104, 217) 0%,
+    rgb(218, 108, 174) 60%,
+    rgb(245, 169, 87)
+  );
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: center;
+  margin: 0px;
 }
