@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 function EmailForm() {
   const [message, setMessage] = useState("");
+  const [email, setEmail] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -11,7 +12,7 @@ function EmailForm() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ text: message }),
+        body: JSON.stringify({ text: `${email}: ${message}` }),
       });
 
       if (response.ok) {
@@ -28,6 +29,15 @@ function EmailForm() {
     <div>
       <h2>Send Email</h2>
       <form onSubmit={handleSubmit}>
+        <div>
+          <label>Email:</label>
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+        </div>
         <div>
           <label>Message:</label>
           <textarea
