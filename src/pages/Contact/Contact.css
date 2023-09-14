@@ -1,0 +1,25 @@
+.header2C {
+  position: absolute;
+  top: 408%;
+  left: 42%;
+  font-size: 2.2em;
+  text-align: center;
+}
+.header2C::after {
+  content: "";
+  display: block;
+  width: 17rem;
+  height: 0.3125rem;
+  margin: 0px auto;
+  /* position: absolute; */
+  background-image: linear-gradient(
+    92deg,
+    rgb(48, 207, 208) 10%,
+    rgb(113, 46, 195) 50%,
+    rgba(219, 66, 198, 0) 95%
+  );
+}
+
+.containerC {
+  padding: 0 10%;
+}
