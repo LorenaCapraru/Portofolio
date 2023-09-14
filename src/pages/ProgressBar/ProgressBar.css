@@ -1,0 +1,22 @@
+/* ProgressBar.css */
+
+.progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: transparent;
+  z-index: 9999;
+}
+
+.progress-bar {
+  height: 100%;
+  background-image: linear-gradient(
+    92deg,
+    rgb(48, 207, 208) 10%,
+    rgb(113, 46, 195) 50%,
+    rgba(219, 66, 198, 0) 95%
+  );
+  transition: width 0.2s ease;
+}
