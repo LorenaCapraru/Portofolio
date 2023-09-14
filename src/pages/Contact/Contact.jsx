@@ -3,6 +3,7 @@ import React, { useState } from "react";
 function EmailForm() {
   const [message, setMessage] = useState("");
   const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -12,7 +13,10 @@ function EmailForm() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ text: `${email}: ${message}` }),
+        body: JSON.stringify({
+          from: email,
+          text: `\tName: ${name}\n\tEmail: ${email}\n\n\tMessage: ${message}`,
+        }),
       });
 
       if (response.ok) {
@@ -20,6 +24,9 @@ function EmailForm() {
       } else {
         alert("Email failed to send.");
       }
+      setMessage("");
+      setEmail("");
+      setName("");
     } catch (error) {
       console.error("Error:", error);
     }
@@ -29,6 +36,15 @@ function EmailForm() {
     <div>
       <h2>Send Email</h2>
       <form onSubmit={handleSubmit}>
+        <div>
+          <label>Name:</label>
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
+        </div>
         <div>
           <label>Email:</label>
           <input
