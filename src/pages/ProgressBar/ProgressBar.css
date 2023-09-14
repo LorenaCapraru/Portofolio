@@ -15,8 +15,8 @@
   background-image: linear-gradient(
     92deg,
     rgb(48, 207, 208) 10%,
-    rgb(113, 46, 195) 50%,
-    rgba(219, 66, 198, 0) 95%
+    rgb(113, 46, 195) 70%,
+    rgba(219, 66, 198, 0) 5%
   );
   transition: width 0.2s ease;
 }
