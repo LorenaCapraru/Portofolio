@@ -1,9 +1,25 @@
 import React, { useState } from "react";
+import "./Contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function EmailForm() {
-  const [message, setMessage] = useState("");
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
+  const [message, setMessage] = useState("Your Message");
+  const [email, setEmail] = useState("Your Email");
+  const [name, setName] = useState("Your Name");
+
+  const handleName = (e) => {
+    e.preventDefault();
+    setName("");
+  };
+  const handleMessage = (e) => {
+    e.preventDefault();
+    setMessage("");
+  };
+  const handleEmail = (e) => {
+    e.preventDefault();
+    setEmail("");
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,48 +40,78 @@ function EmailForm() {
       } else {
         alert("Email failed to send.");
       }
-      setMessage("");
-      setEmail("");
-      setName("");
+      setMessage("Your Message");
+      setEmail("Your Email");
+      setName("Your Name");
     } catch (error) {
       console.error("Error:", error);
     }
   };
 
   return (
-    <div>
-      <h2>Send Email</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Name:</label>
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-          />
+    <div className="containerC">
+      <h2 className="headerH">CONTACT</h2>
+      <h3 className="header2C">Reach out to me</h3>
+      <div className="cont">
+        <div className="leftSideC">
+          <p>Did I get your attention?</p>
+          <p>Then send me an email to discuss further or,</p>
+          <p>
+            Find me on <span>Social Media Platforms</span> to discover more
+            about my educational and professional activity.
+          </p>
+          <div className="socialsC">
+            <a
+              href="https://www.linkedin.com/in/lorena-capraru"
+              className="socialC"
+            >
+              <span>Linkedin</span>
+              <FontAwesomeIcon icon={faLinkedin} className="social2A" />
+            </a>
+
+            <a href="https://github.com/LorenaCapraru">
+              <span>GitHub</span>
+
+              <FontAwesomeIcon icon={faGithub} className="social2A" />
+            </a>
+          </div>
         </div>
-        <div>
-          <label>Email:</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label>Message:</label>
-          <textarea
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <button type="submit">Send Email</button>
-        </div>
-      </form>
+        <form onSubmit={handleSubmit}>
+          <div className="nameEmail">
+            <div>
+              <input
+                type="text"
+                value={name}
+                onClick={handleName}
+                onChange={(e) => setName(e.target.value)}
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                value={email}
+                onClick={handleEmail}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+          </div>
+          <div>
+            <textarea
+              value={message}
+              onClick={handleMessage}
+              onChange={(e) => setMessage(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <button type="submit" className="buttonC">
+              Send Email
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
