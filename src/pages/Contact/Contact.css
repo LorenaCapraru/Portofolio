@@ -21,8 +21,9 @@
 }
 
 .containerC {
-  padding: 0 10%;
-  min-height: 100vh;
+  height: 100vh;
+  padding: 0% 10%;
+  font-family: "Josefin Sans", sans-serif;
 }
 input {
   padding: 3% 5%;
@@ -84,7 +85,7 @@ form {
 }
 
 .cont {
-  margin: 0%;
+  padding-top: 20%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -118,4 +119,33 @@ form {
 
 .social2A:hover {
   font-size: 50px;
+}
+
+@media (max-width: 576px) {
+  .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leftSideC {
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+  form {
+    width: 90%;
+  }
+  .social2A {
+    font-size: 35px;
+  }
+  .leftSideC span {
+    font-size: 15px;
+  }
+  .socialsC a {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
 }

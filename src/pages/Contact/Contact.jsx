@@ -52,8 +52,11 @@ function EmailForm() {
   return (
     <Element name="contact">
       <div className="containerC">
-        <h2 className="headerH">CONTACT</h2>
-        <h3 className="header2C">Reach out to me</h3>
+        <div className="titleContainer">
+          <h1 className="headerH">CONTACT</h1>
+          <h2 className="header2H">Background</h2>
+        </div>
+
         <div className="cont">
           <div className="leftSideC">
             <p>Did I get your attention?</p>

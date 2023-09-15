@@ -14,11 +14,11 @@ body {
 
 .titleContainer {
   position: relative;
-  width: 35vw;
+  width: 40%;
   text-align: center;
-  left: 30vw;
-  right: 30vw;
-  top: 5vh;
+  left: 30%;
+  right: 30%;
+  top: 50px;
 }
 
 .headerH {
