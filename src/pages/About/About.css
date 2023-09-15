@@ -174,15 +174,15 @@ body {
     width: 18rem;
   }
   .headerH {
-    font-size: 2.7em;
+    font-size: 3em;
     padding: 0px;
     margin: 0px;
     width: 280px;
     left: -35%;
   }
   .header2H {
-    font-size: 1.5em;
-    transform: translate(-35%, -50%);
+    font-size: 0.9em;
+    transform: translate(-50%, -50%);
   }
   .header2H::after {
     width: 6rem;
