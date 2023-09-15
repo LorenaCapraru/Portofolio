@@ -3,7 +3,6 @@ import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Element } from "react-scroll";
-import jsPDF from "jspdf";
 
 const About = () => {
   const handleDownloadPDF = () => {
@@ -13,7 +12,6 @@ const About = () => {
     link.target = "_blank";
     link.download = "LorenaCCV.pdf";
 
-    // Trigger a click event on the link to start the download
     link.click();
   };
 
