@@ -17,7 +17,7 @@ const About = () => {
 
   return (
     <Element name="about">
-      <main className="aboutH">
+      <div className="aboutH">
         <div className="titleContainer">
           <h1 className="headerH">ABOUT ME</h1>
           <h2 className="header2H">Background</h2>
@@ -106,7 +106,7 @@ const About = () => {
             </button>
           </div>
         </div>
-      </main>
+      </div>
     </Element>
   );
 };
