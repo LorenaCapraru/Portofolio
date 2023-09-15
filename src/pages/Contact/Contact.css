@@ -121,7 +121,7 @@ form {
   font-size: 50px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .cont {
     display: flex;
     flex-direction: column;

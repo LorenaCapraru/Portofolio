@@ -294,8 +294,9 @@ svg {
     stroke-dashoffset: 90;
   }
 }
-
-@media (max-width: 576px) {
+@media (min-width: 768px) {
+}
+@media (max-width: 768px) {
   .skillsMain {
     width: 100%;
     height: auto;
