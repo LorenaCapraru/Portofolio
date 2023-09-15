@@ -25,16 +25,19 @@ function EmailForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          from: email,
-          text: `\tName: ${name}\n\tEmail: ${email}\n\n\tMessage: ${message}`,
-        }),
-      });
+      const response = await fetch(
+        "https://portofolio-be.onrender.com/send-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            from: email,
+            text: `\tName: ${name}\n\tEmail: ${email}\n\n\tMessage: ${message}`,
+          }),
+        }
+      );
 
       if (response.ok) {
         alert("Email sent successfully!");
