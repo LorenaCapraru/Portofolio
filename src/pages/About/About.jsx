@@ -7,11 +7,14 @@ import jsPDF from "jspdf";
 
 const About = () => {
   const handleDownloadPDF = () => {
-    const myCV = new jsPDF();
+    const cvURL = "/LorenaCCV.pdf";
+    const link = document.createElement("a");
+    link.href = cvURL;
+    link.target = "_blank";
+    link.download = "LorenaCCV.pdf";
 
-    myCV.text("Lorena-Capraru", 10, 10);
-
-    myCV.save("myCV.pdf");
+    // Trigger a click event on the link to start the download
+    link.click();
   };
 
   return (
