@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { Element } from "react-scroll";
 
 function EmailForm() {
   const [message, setMessage] = useState("Your Message");
@@ -49,70 +50,72 @@ function EmailForm() {
   };
 
   return (
-    <div className="containerC">
-      <h2 className="headerH">CONTACT</h2>
-      <h3 className="header2C">Reach out to me</h3>
-      <div className="cont">
-        <div className="leftSideC">
-          <p>Did I get your attention?</p>
-          <p>Then send me an email to discuss further or,</p>
-          <p>
-            Find me on <span>Social Media Platforms</span> to discover more
-            about my educational and professional activity.
-          </p>
-          <div className="socialsC">
-            <a
-              href="https://www.linkedin.com/in/lorena-capraru"
-              className="socialC"
-            >
-              <span>Linkedin</span>
-              <FontAwesomeIcon icon={faLinkedin} className="social2A" />
-            </a>
+    <Element name="contact">
+      <div className="containerC">
+        <h2 className="headerH">CONTACT</h2>
+        <h3 className="header2C">Reach out to me</h3>
+        <div className="cont">
+          <div className="leftSideC">
+            <p>Did I get your attention?</p>
+            <p>Then send me an email to discuss further or,</p>
+            <p>
+              Find me on <span>Social Media Platforms</span> to discover more
+              about my educational and professional activity.
+            </p>
+            <div className="socialsC">
+              <a
+                href="https://www.linkedin.com/in/lorena-capraru"
+                className="socialC"
+              >
+                <span>Linkedin</span>
+                <FontAwesomeIcon icon={faLinkedin} className="social2A" />
+              </a>
 
-            <a href="https://github.com/LorenaCapraru">
-              <span>GitHub</span>
+              <a href="https://github.com/LorenaCapraru">
+                <span>GitHub</span>
 
-              <FontAwesomeIcon icon={faGithub} className="social2A" />
-            </a>
+                <FontAwesomeIcon icon={faGithub} className="social2A" />
+              </a>
+            </div>
           </div>
+          <form onSubmit={handleSubmit}>
+            <div className="nameEmail">
+              <div>
+                <input
+                  type="text"
+                  value={name}
+                  onClick={handleName}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="email"
+                  value={email}
+                  onClick={handleEmail}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </div>
+            </div>
+            <div>
+              <textarea
+                value={message}
+                onClick={handleMessage}
+                onChange={(e) => setMessage(e.target.value)}
+                required
+              />
+            </div>
+            <div>
+              <button type="submit" className="buttonC">
+                Send Email
+              </button>
+            </div>
+          </form>
         </div>
-        <form onSubmit={handleSubmit}>
-          <div className="nameEmail">
-            <div>
-              <input
-                type="text"
-                value={name}
-                onClick={handleName}
-                onChange={(e) => setName(e.target.value)}
-                required
-              />
-            </div>
-            <div>
-              <input
-                type="email"
-                value={email}
-                onClick={handleEmail}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-              />
-            </div>
-          </div>
-          <div>
-            <textarea
-              value={message}
-              onClick={handleMessage}
-              onChange={(e) => setMessage(e.target.value)}
-              required
-            />
-          </div>
-          <div>
-            <button type="submit" className="buttonC">
-              Send Email
-            </button>
-          </div>
-        </form>
       </div>
-    </div>
+    </Element>
   );
 }
 
