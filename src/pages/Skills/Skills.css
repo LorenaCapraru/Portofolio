@@ -32,7 +32,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
   position: relative;
 }
 
@@ -294,7 +294,7 @@ svg {
     stroke-dashoffset: 90;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
+/* @media (min-width: 992px) {
   .skillsMain {
     width: 100%;
     height: auto;
@@ -316,12 +316,12 @@ svg {
   }
 
   .dashboard {
-    padding-top: 30%;
+    padding-top: 20%;
   }
   .tag {
     padding-bottom: 50px;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .skillsMain {
@@ -348,6 +348,6 @@ svg {
     padding-top: 30%;
   }
   .tag {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 }
