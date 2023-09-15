@@ -18,8 +18,10 @@ const About = () => {
   return (
     <Element name="about">
       <main className="aboutH">
-        <h1 className="headerH">ABOUT ME</h1>
-        <h2 className="header2H">Background</h2>
+        <div className="titleContainer">
+          <h1 className="headerA">ABOUT ME</h1>
+          <h2 className="header2A">Background</h2>
+        </div>
 
         <div className="containerH">
           <div className="descriptionH">

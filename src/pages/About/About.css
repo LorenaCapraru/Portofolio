@@ -12,6 +12,8 @@ body {
   background-color: rgb(243, 245, 248);
 }
 
+.titleContainer {
+}
 .headerH {
   color: rgba(223, 231, 239, 255);
   font-size: 5em;
@@ -43,6 +45,7 @@ body {
 .containerH {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
