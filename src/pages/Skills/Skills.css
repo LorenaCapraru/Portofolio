@@ -294,8 +294,35 @@ svg {
     stroke-dashoffset: 90;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
+  .skillsMain {
+    width: 100%;
+    height: auto;
+  }
+  .header2H {
+    width: 200px;
+  }
+  .softSkillsS {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .softSkill,
+  .softSkillLast {
+    width: 35%;
+    font-size: small;
+    padding-top: 5%;
+    border: none;
+  }
+
+  .dashboard {
+    padding-top: 30%;
+  }
+  .tag {
+    padding-bottom: 50px;
+  }
 }
+
 @media (max-width: 768px) {
   .skillsMain {
     width: 100%;
