@@ -23,7 +23,7 @@ body {
 
 .headerH {
   color: rgba(223, 231, 239, 255);
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
   margin: 0px;
   position: absolute;
@@ -46,7 +46,7 @@ body {
 .header2H::after {
   content: "";
   display: block;
-  width: 15rem;
+  width: 8rem;
   height: 0.3125rem;
   margin: 0px auto;
 
