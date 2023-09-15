@@ -6,7 +6,7 @@ import { Element } from "react-scroll";
 
 const About = () => {
   const handleDownloadPDF = () => {
-    const cvURL = "/LorenaCCV.pdf";
+    const cvURL = process.env.PUBLIC_URL + "/LorenaCCV.pdf";
     const link = document.createElement("a");
     link.href = cvURL;
     link.target = "_blank";
