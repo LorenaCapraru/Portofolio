@@ -168,3 +168,19 @@
     width: 0;
   }
 }
+
+@media (max-width: 576px) {
+  .roleH {
+    font-size: 2rem;
+  }
+  .nameH {
+    font-size: 2rem;
+  }
+  .placeH {
+    font-size: 1rem;
+  }
+  .arrowH span {
+    width: 5.1vw;
+    height: 5.1vw;
+  }
+}
