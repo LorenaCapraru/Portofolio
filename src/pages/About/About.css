@@ -69,11 +69,11 @@ body {
 }
 
 .descriptionH {
-  width: 65%;
+  width: 60%;
 }
 
 .dataH {
-  width: 20%;
+  width: 25%;
   display: flex;
   flex-direction: column;
 }
