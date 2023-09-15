@@ -1,6 +1,6 @@
-main {
-  min-height: 100vh;
-  margin: 0px;
+.skillsMain {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh;
 }
 
 .header2S {
@@ -32,13 +32,18 @@ main {
   justify-content: center;
   align-items: center;
   padding-bottom: 80px;
+  position: relative;
 }
 
 .skillsName {
   color: rgb(162, 164, 167);
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bolder;
   text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 2;
 }
 
 .softSkillsS {
@@ -88,8 +93,10 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 6%;
-  padding: 0 10%;
+  gap: 8%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15%;
 }
 
 svg {
@@ -183,6 +190,7 @@ svg {
   stroke-dasharray: 360;
   stroke-dashoffset: 90;
   animation: progress-12 0.5s ease-out;
+  animation: scroll;
 }
 
 @keyframes progress-1 {
@@ -283,5 +291,34 @@ svg {
   }
   to {
     stroke-dashoffset: 90;
+  }
+}
+
+@media (max-width: 576px) {
+  .skillsMain {
+    width: 100%;
+    height: auto;
+  }
+  .header2H {
+    width: 200px;
+  }
+  .softSkillsS {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .softSkill,
+  .softSkillLast {
+    width: 35%;
+    font-size: small;
+    padding-top: 5%;
+    border: none;
+  }
+
+  .dashboard {
+    padding-top: 30%;
+  }
+  .tag {
+    padding-bottom: 50px;
   }
 }

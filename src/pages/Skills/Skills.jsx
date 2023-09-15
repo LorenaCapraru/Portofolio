@@ -3,9 +3,11 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <main>
-      <h1 className="headerH">SKILLS</h1>
-      <h2 className="header2S">My expertise</h2>
+    <main className="skillsMain">
+      <div className="titleContainer">
+        <h1 className="headerH">EXPERTISE</h1>
+        <h2 className="header2H">My Skills</h2>
+      </div>
 
       <div class="dashboard">
         <div className="tag">
@@ -104,6 +106,7 @@ const Skills = () => {
           <span className="skillsName">PostgreSQL</span>
         </div>
       </div>
+
       <div className="softSkillsS">
         <p className="softSkill">Team work</p>
         <p className="softSkill">Critical Thinking</p>
