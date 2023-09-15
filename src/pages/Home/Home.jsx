@@ -1,7 +1,6 @@
-import Logo from "./1.png";
 import React from "react";
 import "./Home.css";
-// import { Link } from "react-router-dom";
+// import Logo from "./1.png";
 import { scroller } from "react-scroll";
 
 const Home = () => {
@@ -23,7 +22,7 @@ const Home = () => {
   return (
     <main className="home">
       <p className="roleH">full.stack.developer</p>
-      <img className="logoH" src={Logo} alt="React Logo" />
+      {/* <img className="logoH" src={Logo} alt="React Logo" /> */}
       <p className="nameH">by Lorena C.</p>
       <p className="placeH">LONDON BASED</p>
       <button className="buttonH" onClick={scrollToContact}>

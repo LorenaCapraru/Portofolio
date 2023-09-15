@@ -2,12 +2,14 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: "Source Sans Pro", sans-serif;
+
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh;
 }
 
 .aboutH {
   padding: 0 5%;
   background-color: rgb(243, 245, 248);
-  min-height: 100vh;
 }
 
 .headerH {
@@ -19,9 +21,6 @@ body {
 }
 
 .header2H {
-  position: absolute;
-  top: 107%;
-  left: 44%;
   font-size: 2.2em;
   text-align: center;
 }
@@ -32,7 +31,7 @@ body {
   width: 15rem;
   height: 0.3125rem;
   margin: 0px auto;
-  position: absolute;
+
   background-image: linear-gradient(
     92deg,
     rgb(48, 207, 208) 10%,
@@ -53,6 +52,13 @@ body {
 
 .dataH {
   width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dataH p {
+  padding: 3% 0;
+  border-bottom: 1px solid rgb(159, 155, 155);
 }
 
 .name {
@@ -93,14 +99,7 @@ body {
 }
 
 .buttonA {
-  position: absolute;
-  display: inline-flex;
-  align-items: center;
-  width: 18%;
-  max-width: 100%;
-  height: 3.5rem;
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
+  padding: 5% 10%;
   cursor: pointer;
   font-weight: 600;
   font-size: 1.2rem;

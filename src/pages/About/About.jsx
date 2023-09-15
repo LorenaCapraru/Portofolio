@@ -78,18 +78,15 @@ const About = () => {
             <p>
               <b>Name:</b> Lorena Capraru
             </p>
-            <hr />
 
             <p>
               <b>Gmail:</b>{" "}
               <span className="name">lorenacapraru@gmail.com</span>
             </p>
-            <hr />
 
             <p>
               <b>Location:</b> London
             </p>
-            <hr />
 
             <div className="socialsA">
               <a
