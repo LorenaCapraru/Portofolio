@@ -41,7 +41,7 @@ const Portofolio = () => {
     <main className="portofolioContainer">
       <div className="titleContainer">
         <h1 className="headerH">PORTOFOLIO</h1>
-        <h2 className="header2H">Background</h2>
+        <h2 className="header2H">My Work</h2>
       </div>
       <div className="containerP">
         <div

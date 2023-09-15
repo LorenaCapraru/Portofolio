@@ -54,7 +54,7 @@ function EmailForm() {
       <div className="containerC">
         <div className="titleContainer">
           <h1 className="headerH">CONTACT</h1>
-          <h2 className="header2H">Background</h2>
+          <h2 className="header2H">Reach out to me</h2>
         </div>
 
         <div className="cont">
