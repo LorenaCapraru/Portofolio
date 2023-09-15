@@ -1,6 +1,7 @@
 .portofolioContainer {
   min-height: 100vh;
   background-color: rgb(243, 245, 248);
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .header2P {
@@ -27,14 +28,14 @@
 }
 
 .containerP {
-  padding: 0 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-
-  /* gap: 5%; */
 }
 
 .elementP {
@@ -44,7 +45,7 @@
   margin-bottom: 3%;
   border-radius: 10px;
   width: 30%;
-  min-height: 235px;
+  height: 30%;
   background-color: rgb(255, 255, 255);
   background-image: radial-gradient(
       circle at 20% -30%,
@@ -182,4 +183,26 @@ b {
   font-size: 1.3em;
   text-align: center;
   margin: 0px;
+}
+
+@media (max-width: 576px) {
+  .containerP {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30%;
+  }
+  .elementP {
+    height: 90%;
+  }
+  .elementP,
+  .backP {
+    width: 100%;
+  }
+  .elementP img {
+    width: 90%;
+  }
+  .headerH {
+    font-size: 2.5rem;
+    left: -40%;
+  }
 }

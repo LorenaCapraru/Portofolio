@@ -1,6 +1,7 @@
 .skillsMain {
   width: 100vw; /* 100% of the viewport width */
   height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .header2S {

@@ -39,8 +39,10 @@ const Portofolio = () => {
 
   return (
     <main className="portofolioContainer">
-      <h1 className="headerH">PORTOFOLIO</h1>
-      <h2 className="header2P">My Work</h2>
+      <div className="titleContainer">
+        <h1 className="headerH">PORTOFOLIO</h1>
+        <h2 className="header2H">Background</h2>
+      </div>
       <div className="containerP">
         <div
           className={click1 === false ? "elementP" : "backP"}
