@@ -29,6 +29,10 @@
       rgba(208, 53, 65, 0) 40%
     );
   z-index: 0;
+  background-image: url("./1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .roleH {
