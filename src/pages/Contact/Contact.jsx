@@ -3,7 +3,7 @@ import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Element } from "react-scroll";
-
+import Footer from "../Footer/Footer";
 function EmailForm() {
   const [message, setMessage] = useState("Your Message");
   const [email, setEmail] = useState("Your Email");
@@ -121,6 +121,7 @@ function EmailForm() {
           </form>
         </div>
       </div>
+      <Footer />
     </Element>
   );
 }

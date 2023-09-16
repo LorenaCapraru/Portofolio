@@ -47,11 +47,11 @@
 }
 
 .nameH {
-  text-align: center;
   font-family: Caveat, cursive;
+  text-align: center;
   font-weight: 400;
   font-size: 5em;
-  transform: rotate(-6deg);
+  transform: rotate(-10deg);
   text-decoration: underline;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -64,11 +64,11 @@
 }
 .nameH::after {
   content: "";
-  width: 100%;
-  /* height: 0.125rem;
-  left: -0.3125rem; */
-  bottom: 0.75rem;
-  transform: rotate(-3deg);
+  display: block;
+  width: 4.5 em;
+  height: 0.3125rem;
+  margin: 0px auto;
+
   background-image: linear-gradient(
     92deg,
     rgb(48, 207, 208) 10%,
