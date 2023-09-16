@@ -103,10 +103,13 @@ body {
 }
 
 .socialA:hover {
+  transition: all 1s ease;
   font-size: 55px;
   color: rgb(37, 169, 171);
 }
 .social2A:hover {
+  transition: all 1s ease;
+
   font-size: 55px;
   color: rgb(37, 169, 171);
 }
@@ -133,6 +136,8 @@ body {
   margin-top: 5%;
 }
 .buttonA:hover {
+  transition: all 1s ease;
+
   background-color: transparent;
   border: 2px solid rgba(48, 207, 209);
   color: rgba(48, 207, 209);
