@@ -1,0 +1,64 @@
+/* src/components/BurgerMenu.css */
+
+/* Style for the menu container */
+.bm-menu {
+  background: rgb(243, 245, 248);
+  padding: 2em;
+  font-size: 1.15em;
+}
+
+/* Style for the menu items */
+.bm-item {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: rgb(201, 206, 211);
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5% 1%;
+}
+.bm-item:hover {
+  font-size: 1.1em;
+  transition: all 0.5s ease;
+  border-bottom: 2px solid rgb(48, 207, 208);
+  background-image: linear-gradient(
+    92deg,
+    rgb(48, 207, 208) 10%,
+    rgb(113, 46, 195) 50%,
+    rgba(219, 66, 198, 0) 95%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: rgb(48, 207, 208) 0.3s ease, color 0.3s ease;
+}
+
+.bm-overlay {
+  background-color: rgba(48, 207, 208, 0.2);
+}
+
+/* Style for the burger icon */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 20px;
+  top: 20px;
+}
+
+/* Style for the burger icon bars */
+.bm-burger-bars {
+  background: #fff;
+  background-image: linear-gradient(
+    92deg,
+    rgb(48, 207, 208) 10%,
+    rgb(113, 46, 195) 50%,
+    rgba(219, 66, 198, 0) 95%
+  );
+}
+
+/* Style for the burger icon bars on hover */
+.bm-burger-bars:hover {
+  background: #f3d3bd;
+}

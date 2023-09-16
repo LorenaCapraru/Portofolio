@@ -1,17 +1,19 @@
 import React from "react";
 import "./Home.css";
-// import Logo from "./1.png";
 import { scroller } from "react-scroll";
 
 const Home = () => {
-  const scrollToContact = () => {
+  const scrollToContact = (e) => {
+    e.preventDefault();
     scroller.scrollTo("contact", {
       duration: 1200,
       delay: 0,
       smooth: "easeInOutQuart",
     });
   };
-  const scrollToAbout = () => {
+  const scrollToAbout = (e) => {
+    e.preventDefault();
+
     scroller.scrollTo("about", {
       duration: 400,
       delay: 0,
@@ -20,6 +22,7 @@ const Home = () => {
   };
 
   return (
+    // <Element name="home">
     <main className="home">
       <p className="roleH">full.stack.developer</p>
       {/* <img className="logoH" src={Logo} alt="React Logo" /> */}
@@ -34,6 +37,7 @@ const Home = () => {
         <span></span>
       </div>
     </main>
+    // </Element>
   );
 };
 
