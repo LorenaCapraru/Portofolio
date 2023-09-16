@@ -226,7 +226,14 @@ b {
     width: 90%;
   }
   .headerH {
-    font-size: 3rem;
+    font-size: 1.6rem;
     text-align: center;
+  }
+  .header2H {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .header2H::after {
+    width: 2rem;
   }
 }
