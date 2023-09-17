@@ -1,6 +1,7 @@
 import "./Feedback.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
+import { Element } from "react-scroll";
 
 const Feedback = () => {
   const testimonialData = [
@@ -22,69 +23,71 @@ const Feedback = () => {
   ];
 
   return (
-    <main className="feedbackF">
-      <div className="titleContainer">
-        <h1 className="headerH">Testimonials</h1>
-        <h2 className="header2H">Feedback</h2>
-      </div>
-
-      <div class="container">
-        <input type="radio" name="slider" id="item-1" checked />
-        <input type="radio" name="slider" id="item-2" />
-        <input type="radio" name="slider" id="item-3" />
-        <div class="cards">
-          <label class="card" for="item-1" id="song-1">
-            <div className="testimonial-card">
-              <p className="testimonial-text">
-                <span className="quote">
-                  <FontAwesomeIcon icon={faQuoteLeft} />
-                </span>
-                {testimonialData[0].text}
-                <span className="quote">
-                  <FontAwesomeIcon icon={faQuoteRight} />
-                </span>
-              </p>
-              <p className="testimonial-name">- {testimonialData[0].name}</p>
-              <p className="testimonial-company">{testimonialData[0].role}</p>
-            </div>
-          </label>
-          <label class="card" for="item-2" id="song-2">
-            <div className="testimonial-card">
-              <p className="testimonial-text">
-                {" "}
-                <span className="quote">
-                  <FontAwesomeIcon icon={faQuoteLeft} />
-                </span>
-                {testimonialData[1].text}{" "}
-                <span className="quote">
-                  {" "}
-                  <FontAwesomeIcon icon={faQuoteRight} />
-                </span>
-              </p>
-              <p className="testimonial-name">- {testimonialData[1].name}</p>
-              <p className="testimonial-company">{testimonialData[1].role}</p>
-            </div>
-          </label>
-          <label class="card" for="item-3" id="song-3">
-            <div className="testimonial-card">
-              <p className="testimonial-text">
-                <span className="quote">
-                  {" "}
-                  <FontAwesomeIcon icon={faQuoteLeft} />
-                </span>
-                {testimonialData[2].text}{" "}
-                <span className="quote">
-                  {" "}
-                  <FontAwesomeIcon icon={faQuoteRight} />
-                </span>
-              </p>
-              <p className="testimonial-name">- {testimonialData[2].name}</p>
-              <p className="testimonial-company">{testimonialData[2].role}</p>
-            </div>
-          </label>
+    <Element name="feedback">
+      <main className="feedbackF">
+        <div className="titleContainer">
+          <h1 className="headerH">Testimonials</h1>
+          <h2 className="header2H">Feedback</h2>
         </div>
-      </div>
-    </main>
+
+        <div class="container">
+          <input type="radio" name="slider" id="item-1" checked />
+          <input type="radio" name="slider" id="item-2" />
+          <input type="radio" name="slider" id="item-3" />
+          <div class="cards">
+            <label class="card" for="item-1" id="song-1">
+              <div className="testimonial-card">
+                <p className="testimonial-text">
+                  <span className="quote">
+                    <FontAwesomeIcon icon={faQuoteLeft} />
+                  </span>
+                  {testimonialData[0].text}
+                  <span className="quote">
+                    <FontAwesomeIcon icon={faQuoteRight} />
+                  </span>
+                </p>
+                <p className="testimonial-name">- {testimonialData[0].name}</p>
+                <p className="testimonial-company">{testimonialData[0].role}</p>
+              </div>
+            </label>
+            <label class="card" for="item-2" id="song-2">
+              <div className="testimonial-card">
+                <p className="testimonial-text">
+                  {" "}
+                  <span className="quote">
+                    <FontAwesomeIcon icon={faQuoteLeft} />
+                  </span>
+                  {testimonialData[1].text}{" "}
+                  <span className="quote">
+                    {" "}
+                    <FontAwesomeIcon icon={faQuoteRight} />
+                  </span>
+                </p>
+                <p className="testimonial-name">- {testimonialData[1].name}</p>
+                <p className="testimonial-company">{testimonialData[1].role}</p>
+              </div>
+            </label>
+            <label class="card" for="item-3" id="song-3">
+              <div className="testimonial-card">
+                <p className="testimonial-text">
+                  <span className="quote">
+                    {" "}
+                    <FontAwesomeIcon icon={faQuoteLeft} />
+                  </span>
+                  {testimonialData[2].text}{" "}
+                  <span className="quote">
+                    {" "}
+                    <FontAwesomeIcon icon={faQuoteRight} />
+                  </span>
+                </p>
+                <p className="testimonial-name">- {testimonialData[2].name}</p>
+                <p className="testimonial-company">{testimonialData[2].role}</p>
+              </div>
+            </label>
+          </div>
+        </div>
+      </main>
+    </Element>
   );
 };
 

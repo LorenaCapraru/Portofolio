@@ -18,6 +18,9 @@ const BurgerMenu = () => {
       <Link className="menu-item" to="portofolio">
         Portofolio
       </Link>
+      <Link className="menu-item" to="feedback">
+        Testimonials
+      </Link>
       <Link className="menu-item" to="contact">
         Contact
       </Link>
