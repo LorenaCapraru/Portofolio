@@ -1,8 +1,8 @@
 .feedbackF {
   height: 100vh;
   width: 100vw;
-
-  transition: background 0.4s ease-in;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
 }
 .testimonial-list {
   padding-top: 10%;
@@ -24,7 +24,7 @@ input[type="radio"] {
 }
 
 .container {
-  padding: 20% 10%;
+  padding: 15% 10%;
   transform-style: preserve-3d;
   display: flex;
   justify-content: center;
@@ -38,6 +38,7 @@ input[type="radio"] {
   transform: translatex(-40%) scale(0.8);
   opacity: 0.5;
   z-index: 0;
+  transition: background 0.4s ease-in;
 }
 
 #item-1:checked ~ .cards #song-2,

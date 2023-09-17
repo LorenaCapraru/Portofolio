@@ -14,7 +14,7 @@ const Feedback = () => {
     },
     {
       name: "Farnoosh Moayeri",
-      role: "Team Colleague",
+      role: "Peer Developer",
       text: "I must emphasize that Lorena is an exceptional teammate. Her remarkable sense of responsibility and problem-solving skills truly stand out, showcasing her cleverness and creativity. She’s both efficient and incredibly supportive, rendering her an invaluable asset to any team. I firmly believe that she elevates the performance of any group significantly. Furthermore, her genuine kindness, considerate nature, and ability to swiftly find solutions to problems are truly admirable. Having someone of Lorena’s calibre on the team is a tremendous asset.",
     },
   ];
