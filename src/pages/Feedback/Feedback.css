@@ -60,11 +60,12 @@ input[type="radio"] {
 /* src/components/TestimonialCard.css */
 
 .testimonial-card {
+  font-size: 1rem;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 18px 0px;
   padding: 10%;
   position: relative;
   border-radius: 2%;
-  height: 40%;
+  height: 60%;
   background-color: rgb(255, 255, 255);
   background-image: radial-gradient(
       circle at 20% -30%,
@@ -115,5 +116,21 @@ input[type="radio"] {
 }
 
 @media (max-width: 992px) {
-    
+  .testimonial-card {
+    height: 100%;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .testimonial-card {
+    height: 20rem;
+    margin: 0;
+  }
+  .container {
+    padding-top: 30%;
+  }
+  .card {
+    width: 60%;
+    height: max-content;
+  }
 }

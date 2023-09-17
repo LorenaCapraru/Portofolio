@@ -12,7 +12,7 @@ const Feedback = () => {
     {
       name: "Alex Withington-Smith",
       role: "Technical Trainer",
-      text: "I had the pleasure of mentoring Lorena technically throughout her time at CodeYourFuture, including overseeing her team's final project. I found her diligence and good-humoured perseverance throughout the course incredibly infectious - she would often almost savour the challenges presented to her, preferring to analyse the problem and think through solutions independently. The technical understanding this gave her made her a great asset to the final project team. I have been very proud to see Lorena's growth and determination throughout the course, and I have no doubt that she will be an asset to any technical team she joins. I'm looking forward to watching the brilliant things she will achieve throughout her tech career.",
+      text: "I had the pleasure of mentoring Lorena technically throughout her time at CodeYourFuture. I found her diligence and good-humoured perseverance throughout the course incredibly infectious - she would often almost savour the challenges presented to her. The technical understanding this gave her made her a great asset to the final project team. I have been very proud to see Lorena's growth and determination throughout the course, and I have no doubt that she will be an asset to any technical team she joins. I'm looking forward to watching the brilliant things she will achieve throughout her tech career.",
     },
     {
       name: "Farnoosh Moayeri",
