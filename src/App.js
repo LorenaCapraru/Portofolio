@@ -6,6 +6,7 @@ import Portofolio from "./pages/Portofolio/Portofolio";
 import Contact from "./pages/Contact/Contact";
 import ProgressBar from "./pages/ProgressBar/ProgressBar";
 import BurgerMenu from "./pages/About/BurgerMenu/BurgerMenu";
+import Feedback from "./pages/Feedback/Feedback";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <ProgressBar />
       <Skills />
       <Portofolio />
+      <Feedback />
       <Contact />
     </div>
   );
