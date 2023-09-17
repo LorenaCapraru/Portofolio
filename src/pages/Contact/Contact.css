@@ -159,6 +159,6 @@ form {
     align-items: center;
   }
   .footer {
-    margin-top: 15%;
+    display: none;
   }
 }
