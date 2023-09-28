@@ -62,7 +62,7 @@ function EmailForm() {
 
         <div className="cont">
           <div className="leftSideC">
-            <p>Did I get your attention?</p>
+            <p>Did I get your attention?!</p>
             <p>Then send me an email to discuss further or,</p>
             <p>
               Find me on <span>Social Media Platforms</span> to discover more
