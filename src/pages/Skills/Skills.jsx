@@ -63,7 +63,7 @@ const Skills = () => {
               <circle class="bg" cx="57" cy="57" r="52" />
               <circle class="meter-7" cx="57" cy="57" r="52" />
             </svg>
-            <span className="skillsName">Jest</span>
+            <span className="skillsName">TypeScript</span>
           </div>
 
           <div className="tag">
