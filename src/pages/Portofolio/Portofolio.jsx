@@ -154,21 +154,21 @@ const Portofolio = () => {
             ) : (
               <div className="backCard">
                 <div className="detailsP">
-                  <h2 className="nameP">Videos Recommendation</h2>
+                  <h2 className="nameP">Song Sieve</h2>
                   <p>
-                    <b>Tech Stack: </b>React.js, Node.js, PostgreSQL
+                    <b>Tech Stack: </b>TypeScript, Next.js, Firebase
                   </p>
                 </div>
                 <div className="socialMediaP">
                   <a
-                    href="https://github.com/LorenaCapraru/Full-Stack-Project-Assessment"
+                    href="https://github.com/LorenaCapraru/song-sieve"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faGithub} className="socialP" />
                   </a>
                   <a
-                    href="https://cyf-lorenacapraru-tfl-lines-react.netlify.app"
+                    href="https://song-sieve.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >

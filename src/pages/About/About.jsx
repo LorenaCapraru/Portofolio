@@ -46,8 +46,8 @@ const About = () => {
               <span className="pulseA">Agile methodologies</span> and best
               practices to ensure efficient project delivery, and actively learn
               and stay up-to-date with the latest technologies and industry
-              trends, such as <span className="pulseA">TypeScript</span>
-              <span className="pulseA">Next.js</span>,{" "}
+              trends, such as <span className="pulseA">TypeScript</span>,
+              <span className="pulseA"> Next.js</span>,{" "}
               <span className="pulseA">Tailwind</span>, and{" "}
               <span className="pulseA">Prisma</span>. Additionally, I contribute
               to open-source projects and engage in community-driven
