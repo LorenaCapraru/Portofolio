@@ -221,21 +221,21 @@ const Portofolio = () => {
             ) : (
               <div className="backCard">
                 <div className="detailsP">
-                  <h2 className="nameP">Baby Names Pickers</h2>
+                  <h2 className="nameP">Store Admin Panel</h2>
                   <p>
-                    <b>Tech Stack: </b>React.js, CSS, HTML
+                    <b>Tech Stack: </b>React.js, CSS, HTML, Prisma, Node.js
                   </p>
                 </div>
                 <div className="socialMediaP">
                   <a
-                    href="https://github.com/LorenaCapraru/baby-names-react"
+                    href="https://github.com/LorenaCapraru/Store-Admin-Panel"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faGithub} className="socialP" />
                   </a>
                   <a
-                    href="https://cyf-lorenacapraru-baby-names.netlify.app"
+                    href="https://full-stack-challenge.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
